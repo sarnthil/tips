@@ -14,6 +14,8 @@ new type T2,
 - `T0(map(T2, x))` converts the iterable to an iterable of the same type, with
   the elements converted to type T2 (for example to a list of integers from
   strings).
+  
+Full example:
 
     >>> x = [1, 2, 3, 0]
     >>> set(x)
