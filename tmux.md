@@ -13,3 +13,11 @@ own) window, `prefix+!` does the job.
 
 `prefix + z` makes the current pane as big the current window (temporarily).
 Same to zoom out.
+
+## Copying text
+
+`prefix + ^C` copies whats currently in the buffer to the system clipboard. The tmux buffer automatically gets filled by what is being selected with the mouse.
+
+1. Select text with the mouse
+2. Press `prefix + ^C`.
+3. Press ⌘V elsewhere.
