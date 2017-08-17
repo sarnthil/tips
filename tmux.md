@@ -16,8 +16,16 @@ Same to zoom out.
 
 ## Copying text
 
-`prefix + ^C` copies whats currently in the buffer to the system clipboard. The tmux buffer automatically gets filled by what is being selected with the mouse.
+`prefix + ^C` copies whats currently in the buffer to the system clipboard. The
+tmux buffer automatically gets filled by what is being selected with the mouse.
+
 
 1. Select text with the mouse
 2. Press `prefix + ^C`.
 3. Press ⌘V elsewhere.
+
+## Killing a pane
+
+Something is misbehaving and not reacting to `^C`, `^Z`, etc.? Killing a pane
+is easy: `prefix + x`. Because this abruptly kills the process inside the pane,
+this requires confirmation with `y` (and can be aborted with `n`).
