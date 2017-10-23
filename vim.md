@@ -11,3 +11,4 @@ Vim Tips
 6. `cs`+old surround+new surround to change the surrounding, e.g. `cs'"` or
    `cst*` (t means (html) tag)
 7. `ds`+surround to remove a surround, e.g. `ds"`
+8. `:s/123-\zs456\ze-789/000` set the match for replacement to be between `\zs` and `\ze` 
