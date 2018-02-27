@@ -15,7 +15,8 @@ Vim Tips
 9. `:help /\zs` opens the help page for the regex tip described in 8. 
 10. `"_cw^R"` substitute a word with some other in your register. a bit too complex, and fun. 
 
-```foo
+```
+foo
 bar bay bat
 
 "_c(text object)^R"
